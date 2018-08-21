@@ -1,9 +1,11 @@
 const html = require('./html')
 const dashboard = require('./dashboard')
+const css = require('./css')
 
 const plugins = [
     ...dashboard,
-    ...html
+    ...html,
+    ...css
 ]
 
 module.exports = plugins

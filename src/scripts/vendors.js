@@ -1,4 +1,4 @@
-import '../styles/index.scss';
+import '../styles/vendor.scss';
 
 import 'jquery';
 import 'bootstrap';
